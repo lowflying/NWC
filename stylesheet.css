@@ -1,0 +1,152 @@
+html{
+    
+    height: 100%;
+    position: relative;
+}
+body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-color:#D7DADD;
+}
+header{
+    background-color:#BBABC0; /*#BB9DC0*/
+    min-height: 300px;
+    box-shadow: 5px 5px 5px  grey;
+}
+#topSpread{
+    margin: 0px 200px;
+}
+#topLogo{
+    color: #FFF;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.14);
+    padding-top: 5%;
+    width: auto;
+}
+#socMedia{
+    position: absolute;
+    clear: both;
+    float:right;
+    margin-top: 0px;
+    margin-left: 40%;
+    width: 30%;
+    height: 80px;
+    background-color: lightgrey;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+
+.navbar{
+    /*background-color: #bcc8d1;*/
+   /* background-color: #BBBBC0;*/
+ /*  background-color: #CDBFFF;*/
+     background-color: #545A5F;
+    width: 100%;
+    height: auto;
+    padding:0px;
+    margin-top: 60px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 2px 2px 2px silver;
+    
+   
+}
+.navbar ul {
+    margin-left: 200px;
+}
+.navbar ul li {
+    text-align: center;
+ 
+}
+
+.nav-link{
+    padding: 0px 20px 0px 5px;
+    color: white;
+    border-right: solid slategray;
+}
+.navItem {
+
+
+}
+#navId{
+    margin-left: 200px;
+  
+}
+
+#bodyContent{
+    margin-top: -40px;    
+    margin-left: 70px;
+}
+
+#mainContent{
+    background-color: whitesmoke; /*#F8E3FF;*/
+    /*min-height: 400px*/
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 1000px;
+    font-size: 20px;
+    box-shadow: 10px 10px 10px grey;
+
+
+}
+
+
+
+    /* background-color: #bcc8d1;
+
+    background-color: #658cbb; */
+footer{
+    background-color: #BBABC0;
+    box-shadow: 5px 5px 5px silver;
+}
+
+#sidebar{
+    float: right;
+    margin-left: 30px;
+}
+ #sidebarPhoto img{
+    width: 100%;
+    height: auto;
+
+
+ }
+ #informationBlurb{
+    width: 100%;
+    min-height: auto;
+    background-color: white;
+    margin: 20px 0px;
+ 
+    padding: 10px;
+
+
+
+ }
+
+ #sidebarInfo{
+     position: relative;
+     padding:5px;
+     background-color: white;
+     min-height: 200px;
+     width: 100%;
+     margin: 20px 0px;
+ }
+
+ #sidebarSocMedia{
+    position: relative;
+    background-color: white;
+    min-height: 200px;
+    width: 100%;
+ }
+
+ footer{
+     margin: 0px;
+ }
+ #copyInfo{
+     margin: 10px;
+     text-align: center;    
+ }
+ #copyInfo p{
+     margin: 2px 0px 0px 0px;
+ }
