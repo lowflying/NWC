@@ -17,13 +17,6 @@ header{
 #topSpread{
     margin: 0px 200px;
 }
-
-.bigtext {
-    display: block;
-    overflow: hidden;
-    color: #787878;
-  }
-
 #topLogo{
     color: #FFF;
     text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.14);
@@ -82,6 +75,25 @@ header{
   
 }
 
+#therapies {
+    color: navy;
+    text-align: center;
+
+}
+
+#groups{
+    color: navy;
+    text-align: center;
+ 
+}
+
+#bottomBlurb  {
+   
+}
+
+#feelings li {
+    text-decoration: none;
+}
 #bodyContent{
     margin-top: -40px;    
     margin-left: 70px;
@@ -99,6 +111,10 @@ header{
 
 }
 
+#sidebarSocMedia img{
+    height: 250px;
+    width:250px;
+}
 
 
     /* background-color: #bcc8d1;
@@ -119,13 +135,15 @@ footer{
 
 
  }
- .informationBlurb{
+ #informationBlurb{
     width: 100%;
     min-height: auto;
     background-color: white;
     margin: 20px 0px;
-    overflow:hidden;
+ 
     padding: 10px;
+
+
 
  }
 
@@ -155,19 +173,3 @@ footer{
  #copyInfo p{
      margin: 2px 0px 0px 0px;
  }
-
-
- .expand, .contract {
-    cursor: pointer;
-    font-weight: bold;
-    padding: 15px 0;
-    text-align: center;
-    color: #555;
-  }
-  .expand:hover, .contract:hover {
-    color: #121212;
-  }
-  
-  .hide {
-    display: none;
-  }
