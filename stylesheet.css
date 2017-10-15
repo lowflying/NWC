@@ -87,9 +87,6 @@ header{
  
 }
 
-#bottomBlurb  {
-   
-}
 
 #feelings li {
     text-decoration: none;
@@ -109,6 +106,12 @@ header{
     box-shadow: 10px 10px 10px grey;
 
 
+}
+
+.bigtext {
+  display: block;
+  overflow: hidden;
+  color: #787878;
 }
 
 #sidebarSocMedia img{
@@ -135,12 +138,12 @@ footer{
 
 
  }
- #informationBlurb{
+ .informationBlurb{
     width: 100%;
     min-height: auto;
     background-color: white;
     margin: 20px 0px;
- 
+    overflow: hidden;
     padding: 10px;
 
 
@@ -172,4 +175,19 @@ footer{
  }
  #copyInfo p{
      margin: 2px 0px 0px 0px;
+ }
+
+.expand, .contract {
+cursor: pointer;
+font-weight: bold;
+padding: 15px 0;
+text-align: center;
+color: #555;
+}
+ expand:hover, .contract:hover {
+  color: #121212;
+ }
+ 
+ hide {
+  display: none;
  }
