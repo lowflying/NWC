@@ -1,3 +1,3 @@
 
 
-"Website for private buisness" 
+"Staic website for private buisness" 
